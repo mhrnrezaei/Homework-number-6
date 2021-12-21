@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 643px;
+}
+
+.main-container .dv-header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #960200;
+}
+
+.main-container .dv-header h1 {
+  margin: 40px 70px;
+  letter-spacing: 2px;
+}
+
+.main-container .section {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #0c0910;
+}
+
+.main-container .section .dv-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.main-container .section .dv-section div {
+  width: 100%;
+  height: 70px;
+  margin-top: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+}
+
+.main-container .section .dv-section div p {
+  float: left;
+  font-size: 20px;
+  color: #fbfbff;
+  margin-left: 20px;
+}
+
+.main-container .section .dv-section div button {
+  float: right;
+  margin-right: 40px;
+  border: 3px solid #960200;
+  background-color: transparent;
+  padding: 7px 15px;
+  color: #960200;
+  font-size: 17px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.main-container .section .dv-section div button:hover {
+  background-color: #960200;
+  color: #fbfbff;
+}
+
+.main-container .section .dv-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.main-container .section .dv-section img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  height: 450px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
